@@ -10,14 +10,18 @@ To install the Grr package, simply run the following command:
 go get github.com/levinion/grr
 ```
 
-Make sure to replace `levinion` with your actual GitHub username.
-
 ## Usage
 
 To use the Grr package, import it into your Go code as follows:
 
 ```go
 import "github.com/levinion/grr"
+```
+
+then
+
+```sh
+go mod tidy
 ```
 
 ### Example
@@ -72,4 +76,4 @@ The Grr package is licensed under the [MIT License](https://opensource.org/licen
 
 ## Credits
 
-The Grr package was created by [YourName](https://github.com/levinion).
+The Grr package was created by [levinion](https://github.com/levinion).
